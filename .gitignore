@@ -1,0 +1,17 @@
+# PlatformIO build and library files
+.pio/
+.pioenvs/
+libdeps/
+*.pio
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.bak

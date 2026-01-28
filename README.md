@@ -1,12 +1,14 @@
 # Project Name
 
 ## Overview
-Brief description of what this project is and why you’re building it.
+- designing and implementing a real-time traffic light control system
 
 ## Objectives
-- Learn STM32 timers
-- Design a motor driver PCB
-- Implement PID control
+- Learn esp32 board
+- Learn arduino board
+- Learn sketching
+- Design a simulation using Wokwi
+- Implement the traffic light using breadboard and the kit
 
 ## Project Structure
 - `hardware/` – schematics and PCB
@@ -16,3 +18,4 @@ Brief description of what this project is and why you’re building it.
 
 ## Status
 🚧 Initial setup
+

@@ -1,4 +1,5 @@
 ## Real-time model
 
-![Line-Follower Robot](media/videos/real-time_model.MOV)
+![real_time_model](/media/videos/real-time_model.MOV)
+
 

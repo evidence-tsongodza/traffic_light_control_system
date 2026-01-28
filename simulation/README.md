@@ -6,3 +6,4 @@ Try the live simulation here: [Line-Follower Robot on Wokwi](https://wokwi.com/p
 
 ![Simulation Screenshot](media/images/traffic_light_simulation.png)
 
+

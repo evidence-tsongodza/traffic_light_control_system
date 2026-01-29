@@ -1,21 +1,25 @@
 #include <Arduino.h>
 
+const int green = 25;
+const int amber = 26;
+const int red = 27;
+
 void setup() {
   // put your setup code here, to run once:
-  pinMode(25, OUTPUT);
-  pinMode(26, OUTPUT);
-  pinMode(27, OUTPUT);
+  pinMode(green, OUTPUT);
+  pinMode(amber, OUTPUT);
+  pinMode(red, OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(25, HIGH);
+  digitalWrite(green, HIGH);
   delay(2500); // this speeds up the simulation
-  digitalWrite(25, LOW);
-  digitalWrite(26, HIGH);
+  digitalWrite(green, LOW);
+  digitalWrite(amber, HIGH);
   delay(1500);
-  digitalWrite(26, LOW);
-  digitalWrite(27, HIGH);
+  digitalWrite(amber, LOW);
+  digitalWrite(red, HIGH);
   delay(2500);
-  digitalWrite(27, LOW);
+  digitalWrite(red, LOW);
 }
